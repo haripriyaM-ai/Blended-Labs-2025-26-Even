@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: HARI PRIYA M
+* **Register Number**: 212224240047
+* **Date of Submission**: 17-08-2026
 
 ---
 
@@ -85,13 +85,12 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1. Created a VPC using the **VPC and more** option with public and private subnets.
+2. Created additional public and private subnets in a second Availability Zone and configured the route tables.
+3. Created a **Web Security Group** and allowed HTTP traffic from anywhere.
+4. Launched an **EC2 Web Server** in the public subnet with a public IP and configured the required user-data script.
+5. Waited for the instance to pass **2/2 status checks** and accessed the web server using its **Public IPv4 DNS**.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
 
 ---
 
@@ -99,19 +98,19 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+<img width="1598" height="696" alt="1" src="https://github.com/user-attachments/assets/463cce0f-c55e-4b2e-a66d-2d179e82727d" />
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+<img width="1595" height="711" alt="2" src="https://github.com/user-attachments/assets/6facd443-f958-44fd-b887-c4a2858ea7c5" />
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
 
-(Insert Screenshot Here)
+<img width="1600" height="809" alt="3" src="https://github.com/user-attachments/assets/56a5c43c-28b9-4b0a-ac8d-af23e1139152" />
 
 ---
 
