@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: HARI PRIYA M
+* **Register Number**: 212224240047
+* **Date of Submission**: 24-08-2026
 
 ---
 
@@ -78,13 +78,11 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Created a 1 GiB EBS volume in the same Availability Zone as the EC2 instance and tagged it as **My Volume**.
+2. Attached the EBS volume to the **Lab EC2 instance** and connected to it using **Session Manager**.
+3. Formatted and mounted the volume as an **ext3 file system** at `/mnt/data-store` and configured automatic mounting.
+4. Created a file on the volume, verified it, created an **EBS snapshot**, and deleted the original file.
+5. Restored the snapshot to a new EBS volume, attached and mounted it, and verified that **file.txt** was recovered.
 
 ---
 
@@ -92,13 +90,13 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1897" height="1012" alt="Screenshot 2026-08-24 124700" src="https://github.com/user-attachments/assets/c239a1b8-2e66-4a56-b381-71fcc2fca3c3" />
 
 ---
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
+<img width="1917" height="1025" alt="Screenshot 2026-08-24 124930" src="https://github.com/user-attachments/assets/b4dde3b4-d672-4375-932e-3cbf100b0951" />
 
 ---
 
