@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: HARI PRIYA M
+* **Register Number**: 212224240047
+* **Date of Submission**: 24-08-2026
 
 ---
 
@@ -110,7 +110,6 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
 
 ---
 
