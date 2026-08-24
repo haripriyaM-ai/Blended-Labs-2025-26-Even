@@ -94,34 +94,33 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ---
 
-## Workflow (Student Explanation)
+## Workflow
 
-(Write the steps you followed in your own words)
-
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1. Launched an Amazon EC2 instance and configured the required instance settings.
+2. Configured the VPC, subnet, security group, storage, termination protection, and User Data script.
+3. Started the instance and verified that it reached **Running** state with **2/2 status checks passed**.
+4. Monitored the instance using status checks, CloudWatch metrics, system logs, and instance screenshots.
+5. Updated the security group for HTTP access, accessed the web server, resized the instance and EBS volume, and tested stop protection.
 
 ---
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Dashboard / Instance List
+<img width="1917" height="990" alt="Screenshot 2026-08-24 113250" src="https://github.com/user-attachments/assets/853a79f5-2593-4b0b-85b4-6ae6af726d1c" />
 
 
 ---
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="1258" height="658" alt="556306083-c1a51b4b-40d2-4178-8f70-cb53ccb658fa" src="https://github.com/user-attachments/assets/555455e2-b0fb-49a1-acbb-6441b94fd211" />
 
 ---
 
 ### Screenshot 3: Instance Monitoring / Status
+<img width="1917" height="991" alt="Screenshot 2026-08-24 112458" src="https://github.com/user-attachments/assets/c35240db-e8c2-414a-82c8-e821a0ed7c5c" />
 
-(Insert Screenshot Here)
 
 ---
 
